@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Playfair:wght@300&family=Sofia&display=swap");
+
+body {
+  font-family: "Playfair", serif;
+  /* background-color: rgb(63, 87, 69); */
+}
+
+nav {
+  /* background-image: url("/images/background-2.avif"); */
+  /* background-size: cover; */
+  width: 100%;
+  margin: 0;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 2rem;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-li a {
+font-size: x-large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.active,
+.active:visited {
+  color: rgb(255, 0, 0);
+}
+
+h2 {
+    text-align: center;
+    padding: 2rem;
+}
+
+section {
+    display: flex;
+}
+
+h1 {
+    margin: 2rem;
+}
+
+p {
+    margin: 2rem;
+}
+
+img {
+    margin: 2rem;
+}
+
+.icon {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
