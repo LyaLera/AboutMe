@@ -505,6 +505,12 @@ ul a {
 
   .about-me-text {
     padding: 2rem;
+    font-size: 14px;
+  }
+
+  .experience-and-tools {
+    text-align: start;
+    font-size: 14px;
   }
 
   #tool {
@@ -512,7 +518,7 @@ ul a {
   }
 
   .card-item p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .carousel__slide figcaption {
@@ -521,6 +527,11 @@ ul a {
 
   .carousel__slide .credit {
     padding: 0.3rem;
+  }
+
+  #contact-form p {
+    font-size: 14px;
+    padding: 0;
   }
 } 
 
