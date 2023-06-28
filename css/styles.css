@@ -45,7 +45,11 @@
 .logo {
   animation-name: logo;
   animation-duration: 2s;
-  margin: 1rem 3rem;
+  margin: 0 3rem;
+}
+
+.logo-dark {
+  display: none;
 }
 
 #introdaction {
@@ -716,5 +720,63 @@ ul a {
   .created-by {
     grid-row: 2;
     grid-column: 1 / span 3;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background: linear-gradient(rgb(140, 140, 151), rgb(77, 74, 90),  rgb(22, 32, 47));
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-dark {
+    display: block;
+  }
+
+  #nav-link-dark {
+    color: white;
+  }
+
+  #button-nav {
+    background-color: white;
+  }
+
+  #introdaction {
+    background-color: rgb(22, 32, 47);
+  }
+
+  .bg, .avatar {
+    filter: grayscale(100%);
+  }
+
+  /* .avatar {
+    border: 1.5rem solid rgb(137, 164, 205);
+  } */
+
+  .my-story-button,
+  .ask-me-button {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    margin-right: 1rem;
+  }
+
+  .my-story-button {
+    background-color: rgb(140, 140, 151);
+    color: white;
+  }
+
+  .intro {
+    color: rgb(140, 140, 151);
+  }
+
+  strong {
+    color: rgb(199, 198, 198);
   }
 }
