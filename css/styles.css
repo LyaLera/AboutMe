@@ -142,6 +142,10 @@
   color: black;
 }
 
+#projects {
+  margin-bottom: 0;
+}
+
 .tools-in-progress {
   padding: 2rem 0;
 }
@@ -803,7 +807,7 @@ ul a {
   .experience-link a,
   .experience p,
   .experience h3 {
-    color: rgb(199, 198, 198);
+    color: rgb(224, 227, 234);
   }
 
   #percent {
@@ -850,4 +854,10 @@ ul a {
   footer {
     background-color: rgb(5, 29, 66);
   }
+
+  ul a,
+  .follow {
+    color: rgb(199, 198, 198);
+  }
+
 }
