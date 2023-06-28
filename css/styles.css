@@ -138,6 +138,10 @@
   padding-bottom: 1rem;
 }
 
+.experience-link a {
+  color: black;
+}
+
 .tools-in-progress {
   padding: 2rem 0;
 }
@@ -152,7 +156,8 @@
   border: 1px solid rgb(168, 167, 167);
   background: rgb(255, 255, 255);
   color:rgb(66, 66, 66); 
-  font-size: large;
+  font-size: large; 
+  text-align: center;
 }
 
 #percent {
@@ -210,8 +215,7 @@
 .project-links {
   max-width: 1044px;
   margin: 0 auto;
-  padding: 1rem 2rem;
-  margin: 7rem 0;
+  padding: 9rem 2rem;
 }
 
 .project-links img {
@@ -222,7 +226,7 @@
   display: block;
   text-align: left;
   position: relative;
-  margin-bottom: 22px;
+ padding: 5rem 0; 
 }
 .carousel > input {
   clip: rect(1px, 1px, 1px, 1px);
@@ -417,6 +421,10 @@
   text-align: center;
   padding: 0 30px;
   color: var(--text-color-form);
+}
+
+.form-link a {
+  color: black;
 }
 
 .submit {
@@ -725,7 +733,7 @@ ul a {
 
 @media (prefers-color-scheme: dark) {
   .navbar {
-    background: linear-gradient(rgb(140, 140, 151), rgb(77, 74, 90),  rgb(22, 32, 47));
+    background: linear-gradient(rgb(166, 172, 206), rgb(85, 81, 104),  rgb(41, 55, 75),  rgb(22, 32, 47));
     background-position: center center;
     background-size: cover;
   }
@@ -743,7 +751,7 @@ ul a {
   }
 
   #button-nav {
-    background-color: white;
+    background-color: rgb(199, 198, 198);
   }
 
   #introdaction {
@@ -778,5 +786,68 @@ ul a {
 
   strong {
     color: rgb(199, 198, 198);
+  }
+
+  #about-me {
+    background-color:  rgb(22, 32, 47);
+  }
+
+  #web-experience {
+    background-color:  rgb(22, 32, 47);
+  }
+
+  #web-experience h1 {
+    color: rgb(199, 198, 198);
+  }
+
+  .experience-link a,
+  .experience p,
+  .experience h3 {
+    color: rgb(199, 198, 198);
+  }
+
+  #percent {
+    background: linear-gradient(to bottom right,rgb(221, 226, 255),  rgb(128, 122, 152),  rgb(56, 71, 95));
+  }
+
+  #projects {
+    background-color: rgb(22, 32, 47);
+  }
+
+  .cards  {
+    color: rgb(199, 198, 198);
+  }
+
+  .hexagon {
+    background-color:rgb(128, 122, 152);
+  }
+
+  .carousel__slide figcaption {
+    color: rgb(199, 198, 198);
+  }
+
+  #contact-form {
+    background-color: rgb(22, 32, 47);
+    background-image: url("/images/amoutme-bg7-PhotoRoom.png-PhotoRoom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #contact-form h2,
+  #contact-form p {
+    color: rgb(199, 198, 198);
+  }
+
+  .form-link a {
+    color: white;
+  }
+
+  label {
+    color: rgb(199, 198, 198);
+  }
+
+  footer {
+    background-color: rgb(5, 29, 66);
   }
 }
