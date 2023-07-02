@@ -167,11 +167,9 @@
   font-size: medium;
   text-align: end; 
   padding-right: 10px;
-  /* background-image: url("/images/aboutme-bg4.avif"); */
   background-position: center top;
   color: white;
   background: linear-gradient(to bottom right,rgb(237, 237, 237), rgb(114, 113, 113), rgb(70, 68, 68));
-  /* color: var(--text-color-bg); */
 }
 
 .cards {
@@ -201,10 +199,7 @@
   height: 85px;
   width: 100px;
   padding-top: 17px;
-  /* background-image: url("/images/aboutme-bg4.avif"); 
-  background-position: center top; */
   background-color: rgb(124, 122, 122);
-  /* background: linear-gradient(to top left,rgb(223, 223, 223), rgb(80, 79, 79), black); */
   -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   
@@ -400,8 +395,6 @@
 }
 
 #contact-form {
-  /* background-image: url("/images/aboutme-bg4.avif");
-  background-position: top center; */
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 1fr 70% 1fr;
@@ -466,7 +459,6 @@ label {
 }
 
 footer {
-  /* background-image: url("/images/stars4.avif"); */
   background-color: #343434;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -482,7 +474,7 @@ footer {
 
 ul a {
   list-style: none;
-  color: var(--text-color-footer);
+  color: var(--text-color-bg);
   text-decoration: none;
   padding: 0.5rem;
 }
