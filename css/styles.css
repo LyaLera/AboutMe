@@ -499,6 +499,13 @@ ul a {
     padding-left: 1rem;
   }
 
+  .button-links {
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0.1rem;
+    font-weight: 10px;
+  }
+
   #introdaction {
     height: 800px;
   }
